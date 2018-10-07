@@ -18,5 +18,5 @@ function destructivelyRemoveLastDriver(name){
 
 //destructivelyRemoveFirstDriver
 function destructivelyRemoveFirstDriver(name){
-  divers.
+  driver
 }
