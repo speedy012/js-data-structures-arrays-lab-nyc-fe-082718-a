@@ -6,5 +6,4 @@ function destructivelyAppendDriver(name) {
   destructivelyRemovePrependDriver.push("Ralph")
 }
 
-//destructivelyRemovePrependDriver(name);
-drivers.unshift ("Bob");
+//destructivelyRemovePrependDriver
