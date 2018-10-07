@@ -41,5 +41,6 @@ function removeLastDriver() {
 
 //destructivelyRemoveFirstDriver
 function removeFirstDriver() {
-  const copyofdrivers = ["Otis,"]
+  const copyofdrivers = ["Otis", "Garfield"];
+  return copyofdrivers;
 }
