@@ -24,5 +24,5 @@ function destructivelyRemoveFirstDriver(name){
 //appendDriver
 function appendDriver(name) {
   copyofdrivers = [...divers,name]
-  drivers.slice();
+  return copyofdrivers;
 }
