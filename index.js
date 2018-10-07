@@ -35,6 +35,6 @@ function prependDriver(name) {
 
 //function removeLastDriver()
 function removeLastDriver() {
-  drivers.splice(2)
+  const copyofdrivers = [drivers-2]
   return drivers;
 }
