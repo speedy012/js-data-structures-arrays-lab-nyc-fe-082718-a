@@ -34,6 +34,7 @@ function prependDriver(name) {
 }
 
 //function removeLastDriver()
-function removeLastDriver()
+function removeLastDriver() {
   drivers.splice(2)
   return drivers;
+}
