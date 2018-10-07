@@ -33,8 +33,11 @@ function prependDriver(name) {
   return copyofdrivers;
 }
 
-//function removeLastDriver()
+// removeLastDriver()
 function removeLastDriver() {
   const copyofdrivers = ["Milo", "Otis"]; 
   return copyofdrivers;
 }
+
+//destructivelyRemoveFirstDriver
+function removeFirstDriver() {
