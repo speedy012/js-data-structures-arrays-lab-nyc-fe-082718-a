@@ -23,24 +23,26 @@ function destructivelyRemoveFirstDriver(name){
 
 //appendDriver
 function appendDriver(name) {
-  const copyofdrivers = [...drivers, "Broom"];
-  return copyofdrivers;
+  const copyOfDrivers = [...drivers, "Broom"];
+  return copyOfDrivers;
 }
 
 //preprendDriver
 function prependDriver(name) {
-  const copyofdrivers = ["Arnold", ...drivers];
-  return copyofdrivers;
+  const copyOfDrivers = ["Arnold", ...drivers];
+  return copyOfDrivers;
 }
 
 // removeLastDriver()
 function removeLastDriver() {
-  const copyofdrivers = ["Milo", "Otis"]; 
-  return copyofdrivers;
+  let copysOfDrivers = [...drivers]
+  copysOfDrivers.pop();
+  return copysOfDrivers;
 }
 
 //destructivelyRemoveFirstDriver
 function removeFirstDriver() {
-  const copyofdrivers = ["Otis", "Garfield"];
-  return copyofdrivers;
+  let copysOfDrivers = [...drivers]
+  copysOfDrivers.shift();
+  return copysOfDrivers;
 }
